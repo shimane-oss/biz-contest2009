@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Home */
+/* 2009-02-28T12:20:05+09:00 */
+
+@import url("common.css");
+
+body.home{
+	padding-top: 15px;
+}
+
+body.home h1.logo{
+	width: 750px;
+	margin: 0 auto 15px auto;
+}
+
+body.home div.mainpic{
+	width: 750px;
+	margin: 0 auto 20px auto;
+}
+
+body.home div.doc div.info{
+	margin-bottom: 20px;
+}

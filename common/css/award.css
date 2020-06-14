@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Award */
+/* 2009-02-12T14:21:53+09:00 */
+
+@import url("common.css");
+
+body.award p.summary{
+	margin-bottom: 10px;
+	font-size: 110%;
+}
+
+body.award div.doc dl.compact{
+	margin-top: 20px;
+	border-top: solid 3px #ccc;
+}
+
+body.award div.doc dl.compact dt,
+body.award div.doc dl.compact dd,
+body.award div.doc dl.compact li{
+	line-height: 1.5;
+}
+
+body.award div.doc dl.compact dt,
+body.award div.doc dl.compact dd{
+	padding: 0.5em 0;
+	border-top: solid 1px #ccc;
+}
+
+body.award div.doc dl.compact dt{
+	width: 5em;
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+body.award div.doc dl.compact dt.first,
+body.award div.doc dl.compact dd.first{
+	border-top: none;
+}
+
+body.award div.doc dl.compact dd{
+	_margin-left: 5em;
+}
+
+body.award div.doc dl.compact dt.longdesc{
+	width: auto;
+	float: none;
+}
+
+body.award div.doc dl.compact dd.longdesc{
+	margin-left: 0;
+	padding-top: 0;
+	padding-left: 6.25em;
+	border-top: none;
+	border-bottom: solid 3px #ccc;;
+}
+
+body.award div.doc dl.compact ul{
+	margin-bottom: -0.5em;
+}
+
+body.award div.doc dl.compact a.pdf{
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background: url("../images/icon_pdf.gif") no-repeat 0 0;
+}

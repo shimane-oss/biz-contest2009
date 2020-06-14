@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Entry */
+/* 2008-11-22T07:22:26+09:00 */
+
+@import url("common.css");
+
+body.entry div.doc ul{
+	margin-bottom: 20px;
+}
+
+/* main > doc > download */
+div.doc div.download h2{
+	margin-bottom: 5px;
+	font-size: 120%;
+	color: #32ade4;
+}
+
+div.doc dl.attachment{
+	margin-bottom: 30px;
+	border-bottom: solid 3px #ccc;
+}
+
+div.doc dl.attachment dt,
+div.doc dl.attachment dd,
+div.doc dl.attachment li{
+	line-height: 1.5;
+}
+
+div.doc dl.attachment dt,
+div.doc dl.attachment dd{
+	padding: 0.5em 0;
+	border-top: solid 1px #ccc;
+}
+
+div.doc dl.attachment dt.first,
+div.doc dl.attachment dd.first{
+	border-top: solid 3px #ccc;
+}
+
+div.doc dl.compact.attachment dt{
+	width: 6em;
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+div.doc dl.attachment ul{
+	margin: 0;
+}
+
+div.doc dl.attachment li{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+div.doc dl.attachment span.size{
+	margin-left: 0.25em;
+	font-size: 90%;
+	color: #777;
+}
+
+div.doc dl.attachment a{
+	padding-left: 20px;
+	background: no-repeat 0 0;
+	padding-bottom: 5px;
+}
+
+div.doc dl.attachment a.pdf{
+	background-image: url("../images/icon_pdf.gif");
+}
+
+div.doc dl.attachment a.odt{
+	background-image: url("../images/icon_odt.gif");
+}
+
+div.doc dl.attachment a.doc{
+	background-image: url("../images/icon_doc.gif");
+}
+
+/* main > doc > deadline */
+div.doc div.deadline{
+	margin-bottom: 0;
+}
+
+div.doc div.deadline p{
+	margin-bottom: 5px;
+}
+
+div.doc div.deadline p em{
+	font-size: 120%;
+}
+
+div.doc div.deadline dl dt{
+	width: 5em;
+}
